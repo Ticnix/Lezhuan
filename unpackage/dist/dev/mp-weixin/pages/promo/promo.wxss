@@ -1,0 +1,16 @@
+
+.promo-container.data-v-b0a191c7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.promo-img.data-v-b0a191c7 {
+  width: 100%;
+  border-radius: 12rpx;
+  -webkit-user-select: none;
+          user-select: none;
+}

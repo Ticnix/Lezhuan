@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js");if(!Array){e.resolveComponent("uni-icons")()}Math;const a={__name:"wait",setup(a){e.onLoad(()=>{});const o=()=>{e.index.navigateBack()};return(a,n)=>({a:e.p({type:"paperplane",size:"60",color:"#3498db"}),b:e.o(o)})}},o=e._export_sfc(a,[["__scopeId","data-v-a3ca01e0"]]);wx.createPage(o);

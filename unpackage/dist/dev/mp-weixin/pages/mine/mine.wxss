@@ -1,0 +1,338 @@
+
+/* 样式部分保持不变 */
+.user-page.data-v-7c2ebfa5 {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding: 0 30rpx;
+  overflow-x: hidden; /* 防止横向滚动偏移 */
+}
+.top-space.data-v-7c2ebfa5 {
+  height: 180rpx;
+}
+.header-container.data-v-7c2ebfa5 {
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.header-container.data-v-7c2ebfa5::before {
+  content: '';
+  position: absolute;
+  top: -200rpx;
+  right: -100rpx;
+  width: 400rpx;
+  height: 400rpx;
+  background: radial-gradient(circle, rgba(255, 98, 253, 0.2) 0%, rgba(165, 8, 255, 0.0) 70%);
+  border-radius: 50%;
+  z-index: 0;
+}
+.header-container.data-v-7c2ebfa5::after {
+  content: '';
+  position: absolute;
+  top: -400rpx;
+  left: -300rpx;
+  width: 850rpx;
+  height: 850rpx;
+  background: radial-gradient(circle, rgba(0, 85, 255, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  border-radius: 50%;
+  z-index: 0;
+}
+.user-info.data-v-7c2ebfa5 {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  margin-bottom: 25rpx;
+  position: relative;
+  z-index: 1;
+}
+.avatar.data-v-7c2ebfa5 {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 24rpx;
+  box-shadow: 0 6rpx 12rpx rgba(0, 0, 0, 0.1);
+  border: 4rpx solid #fff;
+}
+.avatar image.data-v-7c2ebfa5 {
+  width: 100%;
+  height: 100%;
+}
+.nickname-id.data-v-7c2ebfa5 {
+  flex: 1;
+}
+.nickname.data-v-7c2ebfa5 {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 8rpx;
+  display: block;
+  color: #333;
+}
+.id.data-v-7c2ebfa5 {
+  font-size: 28rpx;
+  color: #666;
+}
+.setting-btn.data-v-7c2ebfa5 {
+  padding: 10rpx;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+.benefit-banner.data-v-7c2ebfa5 {
+  position: relative;
+  z-index: 1;
+}
+.banner-swiper.data-v-7c2ebfa5 {
+  height: 220rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow: 0 6rpx 16rpx rgba(0, 0, 0, 0.1);
+}
+.banner-img.data-v-7c2ebfa5 {
+  width: 100%;
+  height: 100%;
+}
+.auth-card.data-v-7c2ebfa5 {
+  background: linear-gradient(245deg, 
+    rgba(144, 70, 227, 0.6) 0%,   /* 带透明度的浅紫 */
+    rgba(109, 7, 226, 0.3) 30%,  /* 带透明度的白色 */
+    rgba(81, 90, 254, 0.6) 100%  /* 带透明度的粉紫 */
+  );
+  border-radius: 20rpx;
+  box-shadow: 0 0 50rpx rgba(168, 142, 255, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+.auth-content.data-v-7c2ebfa5 {
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auth-text.data-v-7c2ebfa5 {
+  font-size: 28rpx;
+  color: #ffffff;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 24rpx;
+  max-width: 500rpx;
+}
+.auth-button.data-v-7c2ebfa5 {
+  background: linear-gradient(90deg, #ff7eb3 0%, #ff5ca8 100%);
+  color: #fff;
+  border-radius: 30rpx;
+  font-size: 28rpx;
+  box-shadow: 0 4rpx 12rpx rgba(255, 92, 168, 0.3);
+}
+.function-buttons.data-v-7c2ebfa5 {
+  margin-bottom: 40rpx;
+}
+.button-group.data-v-7c2ebfa5 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24rpx;
+}
+.function-btn.data-v-7c2ebfa5 {
+  flex: 1;
+  margin: 0 12rpx;
+  padding: 28rpx 10rpx;
+  padding-bottom: 0rpx;
+  font-size: 28rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 3rpx 8rpx rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+.function-btn.data-v-7c2ebfa5:active {
+  transform: scale(0.98);
+  box-shadow: 0 2rpx 5rpx rgba(0, 0, 0, 0.03);
+}
+
+/* 1. 客服按钮容器：控制按钮位置和尺寸 */
+.contact-btn-container.data-v-7c2ebfa5 {
+  position: relative; /* 关键：让内部绝对定位按钮以容器为基准 */
+  width: 100%;
+  height: 80rpx; /* 与按钮高度一致，避免错位 */
+  margin-bottom: 30rpx; /* 保持与其他元素的间距 */
+}
+
+/* 2. 原微信客服按钮（底层）：隐藏默认样式，与上层按钮对齐 */
+.original-contact-btn.data-v-7c2ebfa5 {
+  position: absolute; /* 绝对定位，与上层按钮重叠 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* 底层：确保微信客服逻辑能触发 */
+  /* 隐藏微信默认按钮样式，继承上层按钮的视觉效果 */
+  background: transparent;
+  color: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* 3. 自定义客服按钮（上层）：保持原有样式，层级更高 */
+.contact-service-btn.data-v-7c2ebfa5 {
+  position: absolute; /* 绝对定位，覆盖底层按钮 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2; /* 上层：视觉上只显示这个按钮 */
+  /* 保留原有样式，确保视觉统一 */
+  font-size: 32rpx;
+  background: linear-gradient(90deg, #87b5ff 0%, #7c89ff 100%);
+  color: #fff;
+  border-radius: 20rpx;
+  box-shadow: 0 6rpx 16rpx rgba(51, 102, 255, 0.3);
+  transition: all 0.2s ease;
+  border: none; /* 清除默认边框 */
+}
+.contact-service-btn.data-v-7c2ebfa5:active {
+  transform: scale(0.99);
+  box-shadow: 0 4rpx 12rpx rgba(51, 102, 255, 0.2);
+}
+.icon-wrapper.data-v-7c2ebfa5 {
+  position: relative;
+  width: 56rpx;
+  height: 56rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14rpx;
+}
+.icon-wrapper.publish.data-v-7c2ebfa5::before {
+    content: '';
+    position: absolute;
+    width: 160rpx; 
+    height: 160rpx;
+    left: 50%;
+    top: 50%;
+    margin-left: -80rpx; 
+    margin-top: -80rpx; 
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 165, 0, 0.2) 0%, transparent 70%);
+    z-index: 0;
+}
+.icon-wrapper.sell.data-v-7c2ebfa5::before {
+  content: '';
+  position: absolute;
+  width: 160rpx; 
+  height: 160rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -80rpx; 
+  margin-top: -80rpx; 
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(23, 127, 255, 0.2) 0%, transparent 70%);
+  z-index: 0;
+}
+.icon-wrapper.want.data-v-7c2ebfa5::before {
+  content: '';
+  position: absolute;
+  width: 160rpx; 
+  height: 160rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -80rpx; 
+  margin-top: -80rpx; 
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 200, 0, 0.2) 0%, transparent 70%);
+  z-index: 0;
+}
+.icon-wrapper.history.data-v-7c2ebfa5::before {
+  content: '';
+  position: absolute;
+  width: 160rpx; 
+  height: 160rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -80rpx; 
+  margin-top: -80rpx; 
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 57, 43, 0.2) 0%, transparent 70%);
+  z-index: 0;
+}
+.icon-wrapper.demand.data-v-7c2ebfa5::before {
+  content: '';
+  position: absolute;
+  width: 160rpx; 
+  height: 160rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -80rpx; 
+  margin-top: -80rpx; 
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.2) 0%, transparent 70%);
+  z-index: 0;
+}
+.icon-wrapper.collect.data-v-7c2ebfa5::before {
+  content: '';
+  position: absolute;
+  width: 160rpx; 
+  height: 160rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -80rpx; 
+  margin-top: -80rpx; 
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(201, 106, 255, 0.2) 0%, transparent 70%);
+  z-index: 0;
+}
+.icon-wrapper.message.data-v-7c2ebfa5::before {
+  content: '';
+  position: absolute;
+  width: 160rpx; 
+  height: 160rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -80rpx; 
+  margin-top: -80rpx; 
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(217, 64, 255, 0.2) 0%, transparent 70%);
+  z-index: 0;
+}
+.icon-wrapper.guide.data-v-7c2ebfa5::before {
+  content: '';
+  position: absolute;
+  width: 160rpx; 
+  height: 160rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -80rpx; 
+  margin-top: -80rpx; 
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 165, 0, 0.2) 0%, transparent 70%);
+  z-index: 0;
+}
+.btn-icon.data-v-7c2ebfa5 {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.original-contact-btn.data-v-7c2ebfa5{
+  z-index: 99;
+}
+.icon-wrapper.message.data-v-7c2ebfa5 {
+  position: relative; /* 用于定位徽章 */
+}
+.unread-badge.data-v-7c2ebfa5 {
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+  background-color: #ff4500;
+  color: #fff;
+  font-size: 20rpx;
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.2);
+}
+.badge-text.data-v-7c2ebfa5 {
+  font-size: 20rpx;
+  font-weight: bold;
+}

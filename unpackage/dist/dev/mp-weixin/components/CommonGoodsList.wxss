@@ -1,0 +1,121 @@
+
+/* 商品列表容器 */
+.goods-list.data-v-1d90967c {
+  padding: 0 20rpx;
+}
+
+/* 加载状态 */
+.loading-state.data-v-1d90967c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100rpx 0;
+  color: #7c89ff;
+}
+.loading-text.data-v-1d90967c {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+
+/* 商品项行 */
+.goods-row.data-v-1d90967c {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15rpx;
+  padding: 15rpx;
+  margin-bottom: 15rpx;
+  min-height: 180rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.03);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.goods-row.data-v-1d90967c:active {
+  transform: scale(0.99);
+  box-shadow: 0 1rpx 4rpx rgba(0, 0, 0, 0.05);
+}
+
+/* 商品信息区域 */
+.goods-info.data-v-1d90967c {
+  display: flex;
+  flex: 1;
+  margin-right: 20rpx;
+  overflow: hidden;
+}
+
+/* 商品图片 */
+.goods-img.data-v-1d90967c {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 10rpx;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-right: 15rpx;
+}
+
+/* 商品文本内容 */
+.goods-text-content.data-v-1d90967c {
+  flex: 1;
+  overflow: hidden;
+}
+
+/* 商品标题 */
+.goods-title.data-v-1d90967c {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 商品价格 */
+.goods-price.data-v-1d90967c {
+  color: #F56C6C;
+  font-weight: 600;
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+
+/* 属性标签容器 */
+.attributes-container.data-v-1d90967c {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rpx;
+}
+
+/* 属性标签样式 */
+.attribute-tag.data-v-1d90967c {
+  padding: 3rpx 10rpx;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+}
+
+/* 可刀标签（红色） */
+.attribute-tag.negotiable.data-v-1d90967c {
+  background-color: #fff1f0;
+  color: #f5222d;
+}
+
+/* 其他标签（蓝色） */
+.attribute-tag.normal.data-v-1d90967c {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+
+/* 空状态样式 */
+.empty-state.data-v-1d90967c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100rpx 0;
+  color: #ccc;
+}
+.empty-text.data-v-1d90967c {
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  font-size: 28rpx;
+}

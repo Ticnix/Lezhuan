@@ -1,0 +1,469 @@
+
+.container.data-v-0832fc77 {
+  flex: 1;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* 导航栏样式 */
+.nav-bar.data-v-0832fc77 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16rpx 24rpx;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+.publish-btn.data-v-0832fc77 {
+  color: #fff;
+  background-color: #FFCC00;
+  border-radius: 30rpx;
+  font-size: 36rpx;
+  width: 100%;
+  margin-top: 15rpx;
+}
+
+/* 图片上传区域 */
+.upload-area.data-v-0832fc77 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 24rpx;
+}
+.upload-title.data-v-0832fc77 {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.upload-grid.data-v-0832fc77 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rpx;
+}
+.upload-item.data-v-0832fc77 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 12rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-btn.data-v-0832fc77 {
+  border: 2rpx dashed #ddd;
+  background-color: #fafafa;
+}
+.image-item.data-v-0832fc77 {
+  position: relative;
+  overflow: hidden;
+}
+.upload-img.data-v-0832fc77 {
+  width: 100%;
+  height: 100%;
+}
+.delete-btn.data-v-0832fc77 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40rpx;
+  height: 40rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 0 12rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 输入区域 */
+.input-area1.data-v-0832fc77 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 24rpx;
+}
+.input-area.data-v-0832fc77 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 24rpx;
+}
+.desc-input1.data-v-0832fc77 {
+  width: 100%;
+  min-height: 40rpx;
+  font-size: 32rpx;
+  line-height: 1.5;
+  text-align: left; /* 新增：文字左对齐 */
+}
+.desc-input.data-v-0832fc77 {
+  width: 100%;
+  min-height: 180rpx;
+  font-size: 32rpx;
+  line-height: 1.5;
+  text-align: left; /* 新增：文字左对齐 */
+}
+.word-count.data-v-0832fc77 {
+  text-align: right;
+  font-size: 28rpx;
+  color: #999;
+  margin-top: 12rpx;
+}
+
+/* 选项列表 */
+.options-list.data-v-0832fc77 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+.option-item.data-v-0832fc77 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28rpx 24rpx;
+  border-bottom: 1px solid #eee;
+  font-size: 32rpx;
+}
+.option-item.data-v-0832fc77:last-child {
+  border-bottom: none;
+}
+.option-label.data-v-0832fc77 {
+  color: #333;
+}
+.option-value.data-v-0832fc77 {
+  color: #999;
+  margin-right: 20rpx;
+}
+
+/* 弹窗样式 */
+.custom-popup.data-v-0832fc77 {
+  width: 100%;
+}
+.popup-content.data-v-0832fc77 {
+  background-color: #fff;
+  border-radius: 24rpx 24rpx 0 0;
+  padding: 32rpx;
+}
+.popup-title.data-v-0832fc77 {
+  font-size: 36rpx;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 32rpx;
+  padding-bottom: 24rpx;
+  border-bottom: 1px solid #eee;
+}
+
+/* 价格弹窗 */
+.price-input-container.data-v-0832fc77 {
+  display: flex;
+  align-items: center;
+  padding: 24rpx;
+  border: 1px solid #eee;
+  border-radius: 12rpx;
+  margin-bottom: 40rpx;
+}
+
+/* 价格标签（售价/原价） */
+.price-label.data-v-0832fc77 {
+  width: 120rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+
+/* 输入框容器 */
+.price-input-wrapper.data-v-0832fc77 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border-bottom: 2rpx solid #eee;
+  padding-bottom: 40rpx;
+}
+.rmb-sign.data-v-0832fc77 {
+  font-size: 40rpx;
+  color: #333;
+  margin-right: 16rpx;
+}
+
+/* 服务费说明 */
+.service-fee-desc.data-v-0832fc77 {
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  border-radius: 8rpx;
+}
+.fee-rate.data-v-0832fc77{
+	color:#00c41d;
+	margin-left: 20rpx;
+	font-size: 32rpx
+}
+.fee-text.data-v-0832fc77 {
+  font-size: 26rpx;
+  color: #999;
+}
+.price-input.data-v-0832fc77 {
+  flex: 1;
+  font-size: 28rpx;
+  height: 80rpx;
+}
+.popup-buttons.data-v-0832fc77 {
+  display: flex;
+  gap: 24rpx;
+}
+.popup-buttons button.data-v-0832fc77 {
+  flex: 1;
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 32rpx;
+  border-radius: 12rpx;
+}
+.cancel-btn.data-v-0832fc77 {
+  background-color: #f5f5f5;
+  color: #333;
+}
+.confirm-btn.data-v-0832fc77 {
+  background-color: #FFCC00;
+  color: #fff;
+}
+
+
+/* 交易方式弹窗 */
+.trade-methods.data-v-0832fc77 {
+  padding-top: 16rpx;
+}
+.trade-method.data-v-0832fc77 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28rpx 0;
+  font-size: 32rpx;
+  border-bottom: 1px solid #eee;
+}
+.trade-method.data-v-0832fc77:last-child {
+  border-bottom: none;
+}
+.options.data-v-0832fc77 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30rpx;
+}
+.option-btn.data-v-0832fc77 {
+  width: 200rpx;
+  background-color: #f5f5f5;
+  border-radius: 8rpx;
+}
+.option-btn.data-v-0832fc77:active {
+  background-color: #cccccc;
+}
+.price-input-area.data-v-0832fc77 {
+  display: flex;
+  align-items: center;
+  gap: 10rpx;
+}
+.price-input.data-v-0832fc77 {
+  flex: 1;
+  border: 1px solid #eee;
+  border-radius: 8rpx;
+  padding: 10rpx;
+}
+.confirm-price-btn.data-v-0832fc77 {
+/*  padding: 10rpx 20rpx; */
+  width: 150rpx;
+  text-align: center;
+  background-color: #007aff;
+  color: #fff;
+  border-radius: 8rpx;
+}
+
+/* 选择器容器 */
+.category-selectors.data-v-0832fc77 {
+  position: relative;
+  width: 100%;
+}
+
+/* 三个选择器一排显示 */
+.select-row.data-v-0832fc77 {
+  margin: 15rpx ;
+  display: flex;
+  border: 1px solid #eee;
+  border-radius: 8rpx;
+  overflow: hidden;
+  background-color: #fff;
+}
+/* 单个选择器样式 */
+.select-item.data-v-0832fc77 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx 30rpx;
+  font-size: 30rpx;
+  position: relative;
+}
+/* 选择器之间的分隔线 */
+.select-item.data-v-0832fc77:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 10rpx;
+  height: 60rpx;
+  width: 1px;
+  background-color: #eee;
+}
+/* 选择器值的样式 */
+.select-value.data-v-0832fc77 {
+  color: #333;
+}
+.select-item:not(.disabled) .select-value.data-v-0832fc77 {
+  color: #666;
+}
+/* 禁用状态 */
+.disabled.data-v-0832fc77 {
+  color: #ccc;
+  pointer-events: none;
+}
+/* 箭头旋转动画 */
+.rotate-icon.data-v-0832fc77 {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+/* 下拉面板 */
+.select-panel.data-v-0832fc77 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  max-height: 500rpx;
+  overflow-y: auto;
+}
+.panel-content.data-v-0832fc77 {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-top: none;
+  border-radius: 0 0 8rpx 8rpx;
+}
+/* 选项列表 */
+.option-list.data-v-0832fc77 {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 选项项 */
+.option-item2.data-v-0832fc77 {
+  width: 33.333%;
+  padding: 28rpx 0;
+  text-align: center;
+  font-size: 30rpx;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+}
+/* 去除最后一列的右边框 */
+.option-item2.data-v-0832fc77:nth-child(3n) {
+  border-right: none;
+}
+/* 选项点击效果 */
+.option-item2.data-v-0832fc77:active {
+  background-color: #f5f5f5;
+}
+/* 遮罩层 */
+.mask.data-v-0832fc77 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 98;
+}
+
+/* 自定义导航栏样式 */
+.custom-nav.data-v-0832fc77 {
+  /* 状态栏高度 + 导航栏本身高度 */
+  height: calc(var(--status-bar-height) + 44px);
+  padding-top: var(--status-bar-height);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  border-bottom: 1px solid #eee;
+}
+.back-btn.data-v-0832fc77 {
+  position: absolute;
+  left: 16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-title.data-v-0832fc77 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #333;
+}
+.nav-right.data-v-0832fc77 {
+  position: absolute;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content.data-v-0832fc77 {
+  padding-top: calc(var(--status-bar-height) + 32px);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+}
+.statusBar.data-v-0832fc77 {
+  background-color: #fff;
+  width: 100%;
+}
+
+/* 弹窗样式：居中显示，半透明遮罩 */
+.popup-overlay.data-v-0832fc77 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.popup-container.data-v-0832fc77 {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 24rpx;
+  padding: 40rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30rpx;
+}
+.popup-content.data-v-0832fc77 {
+  font-size: 24rpx;
+  color: #333;
+  text-align: left; /* 新增：文字左对齐 */
+}
+.popup-close-btn.data-v-0832fc77 {
+  width: 180rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #007aff;
+  color: #fff;
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  padding: 0;
+}
+.popup-close-btn.data-v-0832fc77:disabled {
+  opacity: 0.7;
+  background-color: #ccc;
+  cursor: not-allowed;
+}

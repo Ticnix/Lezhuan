@@ -1,0 +1,118 @@
+
+.history-browse-page.data-v-b2d018fa {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding-bottom: 40rpx;
+}
+
+/* 导航栏样式 */
+.navbar.data-v-b2d018fa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100rpx;
+  padding: 0 30rpx;
+  background-color: #fff;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.nav-title.data-v-b2d018fa {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #333;
+}
+
+/* 清空按钮 */
+.clear-btn.data-v-b2d018fa {
+  background-color: transparent;
+  color: #f5222d;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+  margin-right: 16rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+/* 筛选区域样式 */
+.filter-container.data-v-b2d018fa {
+  padding: 20rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 5rpx rgba(0, 0, 0, 0.03);
+}
+.search-box.data-v-b2d018fa {
+  display: flex;
+  align-items: center;
+  background-color: #f5f7fa;
+  border-radius: 60rpx;
+  padding: 0 20rpx;
+  height: 70rpx;
+  margin-bottom: 20rpx;
+}
+.search-icon.data-v-b2d018fa {
+  margin-right: 10rpx;
+}
+.search-input.data-v-b2d018fa {
+  flex: 1;
+  height: 100%;
+  font-size: 28rpx;
+  color: #333;
+  background: transparent;
+}
+.picker-container.data-v-b2d018fa {
+  display: flex;
+  gap: 20rpx;
+  overflow-x: auto;
+  padding-bottom: 10rpx;
+  scrollbar-width: none; /* 隐藏滚动条 */
+}
+.picker-container.data-v-b2d018fa::-webkit-scrollbar {
+  display: none; /* 隐藏滚动条 */
+}
+.picker-item.data-v-b2d018fa {
+  display: flex;
+  align-items: center;
+  background-color: #f5f7fa;
+  border-radius: 40rpx;
+  padding: 0 20rpx;
+  height: 60rpx;
+  flex-shrink: 0;
+}
+.picker-label.data-v-b2d018fa {
+  font-size: 28rpx;
+  color: #666;
+  margin-right: 10rpx;
+}
+.custom-picker.data-v-b2d018fa {
+  width: auto;
+}
+.picker-display.data-v-b2d018fa {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #333;
+  padding: 0 5rpx;
+}
+.picker-icon.data-v-b2d018fa {
+  margin-left: 8rpx;
+}
+.loading-more.data-v-b2d018fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx 0;
+  color: #666;
+  font-size: 28rpx;
+}
+.loading-text.data-v-b2d018fa {
+  margin-left: 10rpx;
+}
+.no-more.data-v-b2d018fa {
+  text-align: center;
+  padding: 30rpx 0;
+  color: #999;
+  font-size: 28rpx;
+}

@@ -1,0 +1,73 @@
+
+.waterfall-container.data-v-d5a45521 {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 30rpx; /* 与父组件保持一致的左右边距 */
+}
+.waterfall-column.data-v-d5a45521 {
+  display: flex;
+  flex-direction: column;
+}
+.waterfall-item.data-v-d5a45521 {
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  overflow: hidden;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+/* 固定的第一张图片样式 */
+.fixed-first-item.data-v-d5a45521 {
+  background-color: transparent;
+  box-shadow: none;
+}
+.fixed-first-item.data-v-d5a45521:hover {
+  transform: none;
+}
+.waterfall-item.data-v-d5a45521:hover {
+  transform: translateY(-2rpx);
+}
+.waterfall-img.data-v-d5a45521 {
+  width: 100%;
+  display: block;
+}
+.waterfall-content.data-v-d5a45521 {
+  background-color: #ffffff;
+}
+
+/* 标签容器支持自动换行 */
+.tags.data-v-d5a45521 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rpx;
+  padding-bottom: 4rpx;
+}
+.tag-view.data-v-d5a45521 {
+  margin: 0;
+}
+.waterfall-title.data-v-d5a45521 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-all;
+  color: #333333;
+  line-height: 1.4;
+}
+.price-text.data-v-d5a45521 {
+  font-weight: 500;
+}
+.user-info.data-v-d5a45521 {
+  display: flex;
+  align-items: center;
+}
+.user-avatar.data-v-d5a45521 {
+  display: block;
+  object-fit: cover;
+  border: 1px solid #f0f0f0;
+}
+.user-nickname.data-v-d5a45521 {
+  color: #666;
+  font-size: 22rpx;
+}

@@ -1,0 +1,1 @@
+"use strict";const c={en:{"uni-fav.collect":"collect","uni-fav.collected":"collected"},"zh-Hans":{"uni-fav.collect":"收藏","uni-fav.collected":"已收藏"},"zh-Hant":{"uni-fav.collect":"收藏","uni-fav.collected":"已收藏"}};exports.messages=c;

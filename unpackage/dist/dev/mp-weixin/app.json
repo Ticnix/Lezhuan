@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lezhuan/lezhuan",
+    "pages/mine/mine",
+    "pages/category/category",
+    "pages/ProductDetail/ProductDetail",
+    "pages/chat/chat",
+    "pages/post/post",
+    "pages/receive/receive",
+    "pages/wait/wait",
+    "pages/message/message",
+    "pages/setting/setting",
+    "pages/student/student",
+    "pages/publish/publish",
+    "pages/sell/sell",
+    "pages/history/history",
+    "pages/demand/demand",
+    "pages/collect/collect",
+    "pages/guide/guide",
+    "pages/membership/membership",
+    "pages/notice/notice",
+    "pages/promo/promo"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ffd30e",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/lezhuan/lezhuan",
+        "text": "乐转",
+        "iconPath": "static/icons/lezhuan.png",
+        "selectedIconPath": "static/icons/lezhuan-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/icons/mine.png",
+        "selectedIconPath": "static/icons/mine-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

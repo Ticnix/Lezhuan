@@ -1,0 +1,441 @@
+
+/* 基础样式调整：更现代简洁的风格 */
+.chat-page.data-v-0a633310 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f7fa;
+}
+
+/* 弹窗样式：居中显示，半透明遮罩 */
+.popup-overlay.data-v-0a633310 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.popup-container.data-v-0a633310 {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 24rpx;
+  padding: 40rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30rpx;
+}
+.popup-content.data-v-0a633310 {
+  font-size: 24rpx;
+  color: #333;
+  text-align: center;
+}
+.popup-close-btn.data-v-0a633310 {
+  width: 180rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #007aff;
+  color: #fff;
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  padding: 0;
+}
+
+/* 主内容区：弹窗关闭后显示 */
+.main-content.data-v-0a633310 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 参数信息卡片相关样式调整 */
+.params-card.data-v-0a633310 {
+  background-color: #fff;
+  margin: 0 24rpx;
+  border-radius: 12rpx;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.05);
+}
+.params-card__header.data-v-0a633310 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16rpx 20rpx;
+  border-bottom: 1px solid #f7f7f7;
+  background-color: #fffab9;
+}
+.params-card__user.data-v-0a633310{
+  display: flex;
+  align-items: center;
+}
+.user-avatar.data-v-0a633310 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-right: 12rpx;
+}
+.user-info.data-v-0a633310 {
+  flex: 1;
+}
+.user-name.data-v-0a633310 {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #333;
+}
+.member-name.data-v-0a633310 {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 4rpx;
+  display: block;
+}
+.params-card__close.data-v-0a633310 {
+  width: 36rpx;
+  height: 36rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  color: #999;
+}
+.params-card__close--active.data-v-0a633310 {
+  background-color: #eee;
+  color: #666;
+}
+.params-card__content.data-v-0a633310 {
+  padding: 16rpx 20rpx;
+  display: flex;
+  align-items: flex-start;
+  gap: 25rpx;
+}
+.product-image.data-v-0a633310 {
+  width: 135rpx;
+  height: 135rpx;
+  border-radius: 8rpx;
+}
+.product-info.data-v-0a633310 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6rpx;
+}
+.product-price.data-v-0a633310 {
+  font-size: 28rpx;
+  color: #ff4d4f;
+  font-weight: 600;
+}
+.product-freight.data-v-0a633310 {
+  font-size: 24rpx;
+  color: #666;
+}
+/* 标签容器支持自动换行 */
+.tags.data-v-0a633310 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rpx; /* 标签之间的间距 */
+}
+.data-v-0a633310 .tag-view {
+  margin-top: 0rpx !important
+}
+
+/* 收起状态：展开按钮样式（独立卡片，视觉统一） */
+.params-expand-btn.data-v-0a633310 {
+  background-color: #ffe76f;
+  margin: 16rpx 24rpx;
+  border-radius: 24rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
+  padding: 18rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rpx;
+  color: #333;
+  font-size: 22rpx;
+  cursor: pointer;
+}
+/* 点击反馈 */
+.params-expand-btn--active.data-v-0a633310 {
+  background-color: #f5f5f5;
+}
+
+/* 卡片分隔线 */
+.params-card__divider.data-v-0a633310 {
+  height: 1px;
+  background-color: #f7f7f7;
+  margin: 20rpx 0;
+}
+
+/* 卡片底部 */
+.params-card__footer.data-v-0a633310 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rpx;
+  padding: 16rpx 0;
+  background-color: #ffe76f;
+  color: #333;
+  font-size: 22rpx;
+  cursor: pointer;
+}
+.params-card__footer--active.data-v-0a633310 {
+  background-color: #f5f5f5;
+}
+.params-card__footer-icon.data-v-0a633310 {
+  font-size: 20rpx;
+  transition: transform 0.2s ease;
+}
+
+/* 点击收起时图标旋转（可选动画效果） */
+.params-card__footer:active .params-card__footer-icon.data-v-0a633310 {
+  transform: rotate(180deg);
+}
+/* 聊天内容区：优化背景和间距 */
+.chat-container.data-v-0a633310 {
+  flex: 1;
+  max-height: calc(100vh - 185rpx - 128rpx);
+  padding: 24rpx;
+  box-sizing: border-box;
+  background-color: #f5f7fa;
+  overflow-y: auto;
+}
+.message-list.data-v-0a633310 {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25rpx;
+}
+.system-message.data-v-0a633310 {
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+  padding: 10rpx 20rpx;
+  background-color: #eef1f5;
+  border-radius: 18rpx;
+  margin: 0 auto;
+}
+
+/* 消息项：优化布局和气泡样式 */
+.message-item.data-v-0a633310 {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.self-message.data-v-0a633310 {
+  flex-direction: row-reverse;
+}
+.avatar.data-v-0a633310 {
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 50%;
+  margin: 0 16rpx;
+  flex-shrink: 0;
+  border: 1px solid #f0f0f0;
+  align-self: flex-start; /* 头像顶部对齐 */
+}
+.message-bubble.data-v-0a633310 {
+  max-width: 68%;
+  padding: 18rpx 24rpx;
+  border-radius: 24rpx;
+  position: relative;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+  overflow-wrap: anywhere;
+}
+/* 对方消息气泡 */
+.message-item:not(.self-message1) .message-bubble.data-v-0a633310 {
+  background-color: #fff;
+  border-top-left-radius: 8rpx;
+}
+/* 自己消息气泡 */
+.self-message1 .message-bubble.data-v-0a633310 {
+  background-color: #007aff;
+  border-top-right-radius: 8rpx;
+}
+
+/* 消息内容：优化字体和行高 */
+.message-content.data-v-0a633310 {
+  font-size: 28rpx;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+.self-message .message-content.data-v-0a633310 {
+  color: #fff;
+}
+
+/* 发送者昵称样式 */
+.sender-nickname.data-v-0a633310 {
+  font-size: 22rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+  display: block;
+  font-weight: 500;
+}
+/* 图片消息样式 */
+.message-image.data-v-0a633310 {
+  width: auto;
+  height: auto;
+  max-width: 300rpx; 
+  max-height: 400rpx;
+  min-width: 130rpx; 
+  min-height: 130rpx; 
+  border-radius: 16rpx;
+  object-fit: cover;
+}
+
+/* 消息时间：优化位置和颜色 */
+.message-time.data-v-0a633310 {
+  display: block;
+  font-size: 20rpx;
+  color: #999;
+  text-align: center; 
+  margin: 8rpx auto; 
+  padding: 4rpx 12rpx;
+  background-color: #f0f0f0;
+  border-radius: 8rpx;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+/* 消息内容与头像的横向布局容器 */
+.message-content-wrap.data-v-0a633310 {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.message-item:not(.self-message) .message-time.data-v-0a633310 {
+  color: #999;
+}
+.self-message .message-time.data-v-0a633310 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* 功能工具栏：表情、图片按钮 */
+.input-panel.data-v-0a633310 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+  padding-bottom: 30px;
+}
+.tool-bar.data-v-0a633310 {
+  display: flex;
+  padding: 12rpx 24rpx;
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+  gap: 24rpx;
+}
+.tool-btn.data-v-0a633310 {
+  width: 56rpx;
+  height: 56rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.icon-smile.data-v-0a633310, .icon-image.data-v-0a633310 {
+  font-size: 32rpx;
+  color: #666;
+}
+
+/* 表情面板 */
+.emoji-panel.data-v-0a633310 {
+  background-color: #fff;
+  padding: 20rpx;
+  border-top: 1px solid #f0f0f0;
+  max-height: 300rpx;
+  overflow-y: auto;
+  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+/* 表情面板隐藏时的初始状态，可根据需要调整 */
+.emoji-panel[style*="display: none"].data-v-0a633310 {
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.emoji-list.data-v-0a633310 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+}
+.emoji-item.data-v-0a633310 {
+  width: 70rpx;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48rpx;
+  cursor: pointer;
+  border-radius: 8rpx;
+}
+.emoji-item.data-v-0a633310:hover {
+  background-color: #f5f5f5;
+}
+
+/* 输入区域：优化样式 */
+.input-container.data-v-0a633310 {
+  display: flex;
+  align-items: center;
+  padding: 16rpx 24rpx;
+}
+.message-input.data-v-0a633310 {
+  flex: 1;
+  height: 84rpx;
+  background-color: #f5f5f5;
+  border-radius: 42rpx;
+  padding: 0 32rpx;
+  font-size: 28rpx;
+  margin-right: 20rpx;
+  border: none;
+}
+.message-input.data-v-0a633310:focus {
+  outline: none;
+  background-color: #eee;
+}
+.send-button.data-v-0a633310 {
+  width: 128rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  text-align: center;
+  background-color: #007aff;
+  color: #fff;
+  border-radius: 42rpx;
+  font-size: 28rpx;
+  padding: 0;
+  border: none;
+}
+.send-button.data-v-0a633310:disabled {
+  background-color: #e5e5e5;
+  color: #999;
+}
+
+/* 修复scroll-view在H5中的高度问题 */
+.data-v-0a633310::-webkit-scrollbar {
+  width: 4rpx;
+  height: 4rpx;
+}
+.data-v-0a633310::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 2rpx;
+}
+.loading-more.data-v-0a633310 {
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+  padding: 15rpx 0;
+}
+.product-title.data-v-0a633310 {
+  font-size: 26rpx;
+  color: #333;
+  margin-bottom: 8rpx;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

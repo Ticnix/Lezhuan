@@ -1,0 +1,183 @@
+
+.personal-info-page.data-v-018cdf56 {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding: 0 30rpx;
+}
+
+/* 顶部背景装饰 */
+.top-bg.data-v-018cdf56 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400rpx;
+  /* 垂直方向渐变，从顶部的渐变颜色到底部透明 */
+  background: linear-gradient(to bottom, #bcb0ff, #deb5ff, rgba(123, 97, 255, 0));
+  border-bottom-left-radius: 40rpx;
+  border-bottom-right-radius: 40rpx;
+  z-index: 0;
+}
+
+/* 头像区域 */
+.avatar-section.data-v-018cdf56 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80rpx;
+  position: relative;
+  z-index: 99;
+  margin-bottom: 50rpx;
+}
+.avatar-wrapper.data-v-018cdf56 {
+  position: relative;
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  /* 新增渐变背景 */
+  background: linear-gradient(45deg, #cdc0ff, #9baaff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rpx;
+  z-index: 1;
+  /* 新增悬浮动画 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* 鼠标悬浮效果（H5 环境下） */
+.avatar-wrapper.data-v-018cdf56:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20rpx rgba(123, 97, 255, 0.5);
+}
+.avatar.data-v-018cdf56 {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  z-index: 99;
+  border: 4rpx solid #fff;
+}
+.edit-avatar.data-v-018cdf56 {
+  position: absolute;
+  bottom: 6rpx;
+  right: 6rpx;
+  width: 50rpx;
+  height: 50rpx;
+  background: linear-gradient(90deg, #ff5ca8, #ff8c66);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4rpx solid #fff;
+  z-index: 100;
+  /* 新增动画 */
+  animation: pulse-018cdf56 2s infinite;
+}
+/* 编辑图标呼吸动画 */
+@keyframes pulse-018cdf56 {
+0% {
+    box-shadow: 0 0 0 0 rgba(255, 92, 168, 0.7);
+}
+70% {
+    box-shadow: 0 0 0 10rpx rgba(255, 92, 168, 0);
+}
+100% {
+    box-shadow: 0 0 0 0 rgba(255, 92, 168, 0);
+}
+}
+.nickname.data-v-018cdf56 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8rpx;
+  /* 新增文字阴影 */
+  text-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.1);
+}
+.user-id.data-v-018cdf56 {
+  font-size: 28rpx;
+  color: #666;
+}
+
+/* 表单区域 */
+.info-form.data-v-018cdf56 {
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 0 30rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 1;
+  /* 新增轻微渐变和悬浮效果 */
+  background: linear-gradient(180deg, #ffffff, #f9f9f9);
+  transition: box-shadow 0.3s ease;
+}
+.info-form.data-v-018cdf56:hover {
+  box-shadow: 0 6rpx 18rpx rgba(0, 0, 0, 0.08);
+}
+.form-item.data-v-018cdf56 {
+  display: flex;
+  align-items: center;
+  height: 120rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.form-item.data-v-018cdf56:last-child {
+  border-bottom: none;
+}
+.form-label.data-v-018cdf56 {
+  width: 140rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.form-content.data-v-018cdf56 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-input.data-v-018cdf56 {
+  width: 100%;
+  font-size: 30rpx;
+  color: #333;
+  padding-right: 30rpx;
+}
+.form-picker.data-v-018cdf56 {
+  width: 100%;
+  font-size: 30rpx;
+  color: #333;
+  padding-right: 30rpx;
+}
+
+/* 保存按钮 */
+.save-btn.data-v-018cdf56 {
+  width: 100%;
+  height: 100rpx;
+  background: linear-gradient(90deg, #aca4ff 0%, #e1bdff 100%);
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 50rpx;
+  margin-top: 60rpx;
+  box-shadow: 0 6rpx 16rpx rgba(123, 97, 255, 0.3);
+  /* 新增按钮悬浮效果 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20rpx;
+}
+.save-btn.data-v-018cdf56:hover {
+  transform: translateY(-3rpx);
+  box-shadow: 0 8rpx 20rpx rgba(123, 97, 255, 0.4);
+}
+
+/* 退出登录按钮 */
+.logout-btn.data-v-018cdf56 {
+  width: 100%;
+  height: 100rpx;
+  background-color: #ff6b6b;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 50rpx;
+  margin-top: 0;
+  box-shadow: 0 6rpx 16rpx rgba(255, 107, 107, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logout-btn.data-v-018cdf56:hover {
+  transform: translateY(-3rpx);
+  box-shadow: 0 8rpx 20rpx rgba(255, 107, 107, 0.4);
+}

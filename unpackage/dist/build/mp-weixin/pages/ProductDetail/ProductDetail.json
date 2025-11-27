@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-fav": "../../uni_modules/uni-fav/components/uni-fav/uni-fav",
+    "waterfall": "../../components/Waterfall"
+  }
+}

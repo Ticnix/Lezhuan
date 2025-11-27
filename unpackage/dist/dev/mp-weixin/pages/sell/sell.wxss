@@ -1,0 +1,114 @@
+
+.my-sold-page.data-v-a81cc82e {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding-bottom: 40rpx;
+}
+
+/* 导航栏样式 */
+.navbar.data-v-a81cc82e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100rpx;
+  padding: 0 30rpx;
+  background-color: #fff;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.nav-title.data-v-a81cc82e {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #333;
+}
+
+/* 筛选区域样式 */
+.filter-container.data-v-a81cc82e {
+  padding: 20rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 5rpx rgba(0, 0, 0, 0.03);
+}
+.search-box.data-v-a81cc82e {
+  display: flex;
+  align-items: center;
+  background-color: #f5f7fa;
+  border-radius: 60rpx;
+  padding: 0 20rpx;
+  height: 70rpx;
+  margin-bottom: 20rpx;
+}
+.search-icon.data-v-a81cc82e {
+  margin-right: 10rpx;
+}
+.search-input.data-v-a81cc82e {
+  flex: 1;
+  height: 100%;
+  font-size: 28rpx;
+  color: #333;
+  background: transparent;
+}
+.picker-container.data-v-a81cc82e {
+  display: flex;
+  gap: 20rpx;
+  overflow-x: auto;
+  padding-bottom: 10rpx;
+}
+.picker-item.data-v-a81cc82e {
+  display: flex;
+  align-items: center;
+  background-color: #f5f7fa;
+  border-radius: 40rpx;
+  padding: 0 20rpx;
+  height: 60rpx;
+  flex-shrink: 0;
+}
+.picker-label.data-v-a81cc82e {
+  font-size: 28rpx;
+  color: #666;
+  margin-right: 10rpx;
+}
+.custom-picker.data-v-a81cc82e {
+  width: auto;
+}
+.picker-display.data-v-a81cc82e {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #333;
+  padding: 0 5rpx;
+}
+.picker-icon.data-v-a81cc82e {
+  margin-left: 8rpx;
+}
+
+/* 加载状态样式 */
+.loading-state.data-v-a81cc82e {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100rpx 0;
+  color: #7c89ff;
+}
+.loading-text.data-v-a81cc82e {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+
+/* 空状态样式 */
+.empty-state.data-v-a81cc82e {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100rpx 0;
+  color: #ccc;
+}
+.empty-text.data-v-a81cc82e {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}

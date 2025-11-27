@@ -1,0 +1,320 @@
+
+.member-buy-page.data-v-94171f33 {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding-bottom: 40rpx;
+}
+
+/* 会员卡通用样式 */
+.card-container.data-v-94171f33 {
+  padding: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 15rpx;
+}
+.card.data-v-94171f33, .non-member-card.data-v-94171f33 {
+  border-radius: 20rpx;
+  padding: 30rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* 卡片装饰元素 */
+.card.data-v-94171f33::before, .non-member-card.data-v-94171f33::before {
+  content: '';
+  position: absolute;
+  top: -20rpx;
+  right: -20rpx;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  opacity: 0.1;
+}
+.card.data-v-94171f33::before {
+  background-color: #ffffff;
+}
+.non-member-card.data-v-94171f33::before {
+  background-color: #999;
+}
+.card.data-v-94171f33 {
+  background: linear-gradient(135deg, #d1b8ff, #a594ff);
+}
+.non-member-card.data-v-94171f33 {
+  background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+}
+.card-top.data-v-94171f33, .non-member-card .card-top.data-v-94171f33 {
+  margin-bottom: 20rpx;
+}
+.card-title.data-v-94171f33, .non-member-card .card-title.data-v-94171f33 {
+  font-size: 32rpx;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+.non-member-card .card-title.data-v-94171f33 {
+  color: #666;
+}
+.user-name.data-v-94171f33, .non-member-card .user-name.data-v-94171f33 {
+  font-size: 28rpx;
+  color: #fff;
+  opacity: 0.9;
+  margin-left: 30rpx;
+}
+.non-member-card .user-name.data-v-94171f33 {
+  color: #666;
+  opacity: 0.8;
+}
+.card-middle.data-v-94171f33, .non-member-card .card-middle.data-v-94171f33 {
+  margin-bottom: 20rpx;
+}
+.expire.data-v-94171f33, .non-member-card .tips.data-v-94171f33 {
+  font-size: 26rpx;
+  color: #fff;
+}
+.non-member-card .tips.data-v-94171f33 {
+  color: #666;
+}
+.lifetime.data-v-94171f33 {
+  color: #ff4500;
+  font-weight: bold;
+}
+.tips.data-v-94171f33 {
+  font-size: 22rpx;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* 会员进度条样式 */
+.member-progress.data-v-94171f33 {
+  margin-top: 20rpx;
+  padding-top: 10rpx;
+}
+.progress-title.data-v-94171f33 {
+  font-size: 24rpx;
+  color: #fff;
+  margin-bottom: 15rpx;
+  display: block;
+}
+.non-member .progress-title.data-v-94171f33 {
+  color: #666;
+}
+.progress-bar.data-v-94171f33 {
+  position: relative;
+  height:12rpx;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 6rpx;
+  overflow: hidden;
+}
+.non-member .progress-bar.data-v-94171f33 {
+  background-color: #ddd;
+}
+.progress-track.data-v-94171f33 {
+  position: absolute;
+  height: 100%;
+  background: linear-gradient(90deg, #ffd700, #ffA500);
+  transition: width 0.5s ease;
+  border-radius: 6rpx;
+}
+
+/* 进度节点样式 */
+/* 修改后 */
+.progress-node-tourist.data-v-94171f33 { left: 0%;
+}
+.progress-node-normal.data-v-94171f33 { left: 50%;
+}
+.progress-node-platinum.data-v-94171f33 { left: 100%;
+}
+.progress-node-tourist.data-v-94171f33 {
+  left: 0%;
+}
+.progress-node-normal.data-v-94171f33 {
+  left: 50%;
+}
+.progress-node-platinum.data-v-94171f33 {
+  left: 100%;
+}
+
+/* 激活状态的节点 */
+.progress-node-tourist.active.data-v-94171f33,
+.progress-node-normal.active.data-v-94171f33,
+.progress-node-platinum.active.data-v-94171f33 {
+  background-color: #ffd700;
+  box-shadow: 0 0 0 8rpx rgba(255, 215, 0, 0.2);
+  width: 28rpx;
+  height: 28rpx;
+}
+
+/* 节点文字 */
+.node-text.data-v-94171f33 {
+  position: absolute;
+  top: 30rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20rpx;
+  color: #fff;
+  white-space: nowrap;
+}
+.non-member .node-text.data-v-94171f33 {
+  color: #666;
+}
+
+/* 特权说明 */
+.privilege-title.data-v-94171f33 {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  margin: 0 30rpx 35rpx;
+}
+.privilege-list.data-v-94171f33 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 30rpx 5rpx;
+}
+.privilege-item.data-v-94171f33 {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  margin-bottom: 20rpx;
+  padding: 15rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.03);
+}
+.privilege-item text.data-v-94171f33 {
+  font-size: 26rpx;
+  color: #666;
+  margin-left: 10rpx;
+}
+
+/* 套餐选择 */
+.package-title.data-v-94171f33 {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  margin: 0 30rpx 20rpx;
+}
+.package-list.data-v-94171f33 {
+  margin: 0 30rpx;
+}
+.package-item.data-v-94171f33 {
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 25rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 5rpx 15rpx rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.package-item.data-v-94171f33:hover {
+  transform: translateY(-5rpx);
+  box-shadow: 0 8rpx 20rpx rgba(0, 0, 0, 0.08);
+}
+.package-item.active.data-v-94171f33 {
+  border: 2rpx solid #7c89ff;
+  position: relative;
+}
+.package-item.active.data-v-94171f33::before {
+  content: '';
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+  background-color: #7c89ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.package-item.active.data-v-94171f33::after {
+  content: '✓';
+  position: absolute;
+  top: 22rpx;
+  right: 25rpx;
+  color: white;
+  font-size: 20rpx;
+  font-weight: bold;
+}
+.package-header.data-v-94171f33 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15rpx;
+}
+.package-name.data-v-94171f33 {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+}
+.package-price.data-v-94171f33 {
+	margin-right: 20rpx;
+  font-size: 28rpx;
+  color: #ff4500;
+}
+.current-price.data-v-94171f33 {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.original-price.data-v-94171f33 {
+  font-size: 22rpx;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 6rpx;
+}
+.upgrade-tip.data-v-94171f33 {
+  font-size: 22rpx;
+  color: #7c89ff;
+  margin-top: 8rpx;
+}
+.package-desc.data-v-94171f33 {
+  font-size: 24rpx;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20rpx;
+}
+.package-desc text.data-v-94171f33 {
+  display: block;
+  margin-bottom: 10rpx;
+}
+.highlight.data-v-94171f33 {
+  color: #7c89ff;
+  font-weight: 500;
+}
+.buy-btn.data-v-94171f33 {
+  width: 100%;
+  height: 80rpx;
+  background: linear-gradient(90deg, #7c89ff, #a594ff);
+  color: #fff;
+  font-size: 28rpx;
+  border-radius: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.buy-btn.data-v-94171f33:hover {
+  background: linear-gradient(90deg, #6b79e6, #9484e3);
+  transform: translateY(-2rpx);
+}
+.buy-btn.disabled.data-v-94171f33 {
+  background: #e0e0e0;
+  color: #999;
+  cursor: not-allowed;
+}
+.buy-btn.disabled.data-v-94171f33:hover {
+  transform: none;
+  background: #e0e0e0;
+}
+
+/* 版权信息 */
+.student-tip.data-v-94171f33 {
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+  margin-top: 30rpx;
+  padding: 20rpx;
+}
+.auth-link.data-v-94171f33 {
+  color: #7c89ff;
+  text-decoration: underline;
+}

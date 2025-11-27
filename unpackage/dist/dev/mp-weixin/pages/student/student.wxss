@@ -1,0 +1,223 @@
+
+/* 页面基础样式 */
+.student-auth-page.data-v-809c9d48 {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding: 0 30rpx;
+  position: relative;
+}
+
+/* 顶部装饰背景 */
+.top-decor.data-v-809c9d48 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 480rpx;
+  background: linear-gradient(135deg, #7c89ff, #a594ff, #d1b8ff);
+  border-bottom-left-radius: 60rpx;
+  border-bottom-right-radius: 60rpx;
+  z-index: 0;
+}
+
+/* 标题区域 */
+.page-header.data-v-809c9d48 {
+  padding-top: 90rpx;
+  margin-bottom: 50rpx;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.title.data-v-809c9d48 {
+  font-size: 42rpx;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 12rpx;
+  text-shadow: 0 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  display: block;
+}
+.subtitle.data-v-809c9d48 {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* 认证表单区域 */
+.auth-form.data-v-809c9d48 {
+  background-color: #fff;
+  border-radius: 30rpx;
+  padding: 45rpx 30rpx;
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.05);
+  margin-bottom: 50rpx;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(180deg, #ffffff, #fefeff);
+}
+
+/* 表单项基础样式 */
+.form-item.data-v-809c9d48 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45rpx;
+}
+.form-item.data-v-809c9d48:last-child {
+  margin-bottom: 0;
+}
+.form-label.data-v-809c9d48 {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 16rpx;
+  font-weight: 500;
+}
+.form-control.data-v-809c9d48 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+  transition: border-color 0.3s ease;
+}
+.form-control.data-v-809c9d48:focus-within {
+  border-color: #a594ff;
+}
+
+/* 学院选择器样式 */
+.picker-control.data-v-809c9d48 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.picker-text.data-v-809c9d48 {
+  font-size: 28rpx;
+  color: #666;
+}
+
+/* 输入框样式 */
+.input-control.data-v-809c9d48 {
+  flex: 1;
+  font-size: 28rpx;
+  color: #333;
+  height: 100%;
+  padding-right: 10rpx;
+}
+.input-control.data-v-809c9d48::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 26rpx;
+}
+.input-control.data-v-809c9d48::placeholder {
+  color: #ccc;
+  font-size: 26rpx;
+}
+
+/* 学生证上传区域 */
+.upload-item.data-v-809c9d48 {
+  margin-bottom: 0;
+}
+.upload-container.data-v-809c9d48 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.upload-preview.data-v-809c9d48 {
+  width: 100%;
+  height: 260rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  border: 2rpx dashed #eee;
+  position: relative;
+  margin-bottom: 16rpx;
+  transition: all 0.3s ease;
+}
+.upload-hover.upload-preview.data-v-809c9d48 {
+  border-color: #8c9aff;
+  background-color: rgba(140, 154, 255, 0.05);
+}
+.preview-img.data-v-809c9d48 {
+  width: 100%;
+  height: 100%;
+}
+
+/* 上传提示 */
+.upload-tip.data-v-809c9d48 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.tip-text.data-v-809c9d48 {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 12rpx;
+}
+
+/* 已上传标识 */
+.uploaded-tag.data-v-809c9d48 {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  background-color: rgba(67, 181, 72, 0.9);
+  color: #fff;
+  font-size: 22rpx;
+  padding: 8rpx 16rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+}
+
+/* 上传提示文本 */
+.upload-hint.data-v-809c9d48 {
+  font-size: 22rpx;
+  color: #999;
+  line-height: 1.5;
+  text-align: left;
+  margin: 10rpx auto;
+}
+
+/* 提交按钮样式 */
+.submit-btn.data-v-809c9d48 {
+  width: 100%;
+  height: 100rpx;
+  background: linear-gradient(90deg, #7c89ff, #a594ff);
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 500;
+  border-radius: 50rpx;
+  box-shadow: 0 8rpx 24rpx rgba(124, 137, 255, 0.3);
+  transition: all 0.3s ease;
+  margin-bottom: 30rpx;
+}
+.submit-btn.data-v-809c9d48:disabled {
+  background: #e5e5e5;
+  color: #999;
+  box-shadow: none;
+}
+.submit-btn.data-v-809c9d48:not(:disabled):hover {
+  transform: translateY(-3rpx);
+  box-shadow: 0 12rpx 30rpx rgba(124, 137, 255, 0.4);
+}
+
+/* 认证说明 */
+.auth-note.data-v-809c9d48 {
+  margin-top: 0;
+  padding-bottom: 50rpx;
+  position: relative;
+  z-index: 1;
+}
+.note-text.data-v-809c9d48 {
+  display: block;
+  font-size: 22rpx;
+  color: #999;
+  margin-bottom: 12rpx;
+  line-height: 1.5;
+}

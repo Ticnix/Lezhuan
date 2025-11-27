@@ -1,0 +1,216 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+		"navigationStyle": "custom" ,
+		"enablePullDownRefresh": true,
+		"enableShareAppMessage": true,
+		"enableShareTimeline": true
+      }
+    },
+    {
+      "path": "pages/lezhuan/lezhuan",
+      "style": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+		"navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+		"navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/category/category",
+      "style": {
+		  "enablePullDownRefresh": true 
+      }
+    },
+    {
+    	"path" : "pages/ProductDetail/ProductDetail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "详情",
+			"enablePullDownRefresh": true 
+    	}
+    },
+    {
+    	"path" : "pages/chat/chat",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/post/post",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "发需求",
+			"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/receive/receive",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "收宝贝",
+			"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/wait/wait",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/message/message",
+    	"style" : 
+    	{
+			"enablePullDownRefresh": true, // 启用下拉刷新
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/setting/setting",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/student/student",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/publish/publish",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+			"enablePullDownRefresh": true 
+    	}
+    },
+    {
+    	"path" : "pages/sell/sell",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+			"enablePullDownRefresh": true 
+    	}
+    },
+    {
+    	"path" : "pages/history/history",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+			"enablePullDownRefresh": true 
+    	}
+    },
+    {
+    	"path" : "pages/demand/demand",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+			"enablePullDownRefresh": true 
+    	}
+    },
+    {
+    	"path" : "pages/collect/collect",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+			"enablePullDownRefresh": true 
+    	}
+    },
+    {
+    	"path" : "pages/guide/guide",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/membership/membership",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+			"enablePullDownRefresh": true 
+    	}
+    },
+    {
+      "path" : "pages/notice/notice",
+      "style" : 
+      {
+        "navigationBarTitleText" : "",
+		"enablePullDownRefresh": true 
+      }
+    }
+    ,
+    {
+      "path": "pages/promo/promo",
+      "style": {
+        "navigationBarTitleText": "限时活动",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "tabBar": {
+	// "custom": true, 
+    "color": "#666666",
+    "selectedColor": "#ffd30e",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "height": "130rpx",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/lezhuan/lezhuan",
+        "text": "乐转",
+        "iconPath": "static/icons/lezhuan.png",
+        "selectedIconPath": "static/icons/lezhuan-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/icons/mine.png",
+        "selectedIconPath": "static/icons/mine-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "乐转",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F5F5F5"
+  },
+  
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+		  "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"lazyCodeLoading": "requiredComponents"
+}

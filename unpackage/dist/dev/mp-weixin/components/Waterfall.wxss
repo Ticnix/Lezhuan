@@ -1,0 +1,83 @@
+
+.waterfall-container.data-v-8bffc3e4 {
+  display: flex;
+  display: -webkit-flex; /* 兼容旧版微信小程序 */
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx; /* 与父组件保持一致的左右边距 */
+}
+.waterfall-column.data-v-8bffc3e4 {
+  display: flex;
+  flex-direction: column;
+}
+.waterfall-item.data-v-8bffc3e4 {
+  background-color: #fff;
+  border-radius: 10rpx;
+  overflow: hidden;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+  position: relative; /* 用于置顶标签定位 */
+}
+
+/* 置顶标签位置 */
+.pinned-tag.data-v-8bffc3e4 {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  z-index: 2;
+}
+.waterfall-img.data-v-8bffc3e4 {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1/1; /* 正方形图片，可根据需求调整 */
+  object-fit: cover;
+}
+.waterfall-content.data-v-8bffc3e4 {
+  padding: 16rpx;
+}
+
+/* 标签容器支持自动换行 */
+.tags.data-v-8bffc3e4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rpx;
+  padding-bottom: 4rpx;
+}
+.tag-view.data-v-8bffc3e4 {
+  margin: 0;
+}
+.waterfall-title.data-v-8bffc3e4 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  line-height: 1.3;
+}
+.waterfall-desc.data-v-8bffc3e4 {
+  color: #666;
+  line-height: 1.4;
+  display: block;
+}
+
+/* 价格样式 */
+.price.data-v-8bffc3e4 {
+  display: block;
+  color: #ff4d4f;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.user-info.data-v-8bffc3e4 {
+  display: flex;
+  align-items: center;
+  margin-top: 12rpx;
+}
+.user-avatar.data-v-8bffc3e4 {
+  display: block;
+  object-fit: cover;
+  border: 1rpx solid #f0f0f0;
+}
+.user-nickname.data-v-8bffc3e4 {
+  color: #666;
+  font-size: 24rpx;
+}

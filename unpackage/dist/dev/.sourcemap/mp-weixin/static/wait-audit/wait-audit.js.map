@@ -1,0 +1,1 @@
+{"version":3,"file":"wait-audit.js","sources":["D:/HBuilderX/plugins/uniapp-cli-vite/uniPage:/c3RhdGljL3dhaXQtYXVkaXQvd2FpdC1hdWRpdC52dWU"],"sourcesContent":["import MiniProgramPage from 'C:/Users/86133/Desktop/demo/Lezhuan/static/wait-audit/wait-audit.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

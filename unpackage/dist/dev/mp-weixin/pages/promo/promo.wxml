@@ -1,0 +1,1 @@
+<view class="promo-container data-v-b0a191c7"><image class="promo-img data-v-b0a191c7" src="{{a}}" mode="widthFix" alt="会员推广图" show-menu-by-longpress="true" bindlongpress="{{b}}" bindtap="{{c}}"></image></view>

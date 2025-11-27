@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={__name:"lezhuan",setup(o){e.useRouter();const t=o=>{e.index.navigateTo({url:`/pages/${o}/${o}`})};return(o,a)=>({a:e.o(e=>t("post")),b:e.o(e=>t("receive"))})}},t=e._export_sfc(o,[["__scopeId","data-v-38c9ae33"]]);wx.createPage(t);

@@ -1,0 +1,13 @@
+$primary-color: #007aff; // 主题蓝
+$text-color: #333;
+$border-color: #eee;
+
+.page {
+  padding-bottom: 50px; // 适配底部tabBar
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  color: white;
+  border-radius: 8px;
+}
